@@ -1,0 +1,25 @@
+Return-Path: <notify@eu-docsign-review.cfd>
+Received: from mx01.meridian-demo.local (10.20.4.11) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Mon, 27 Jul 2026 12:32:11 +0000
+Received: from smtp.sendgrid-relay-eu.net (smtp.sendgrid-relay-eu.net [23.106.223.18])
+	by mx01.meridian-demo.local (Postfix) with ESMTPS id 1F7C21C9B3; Mon, 27 Jul 2026 12:32:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=pass (sender IP is 23.106.223.18) smtp.mailfrom=eu-docsign-review.cfd;
+	dkim=pass (signature was verified) header.d=eu-docsign-review.cfd;
+	dmarc=pass action=none header.from=eu-docsign-review.cfd
+From: "DocuSign EU" <notify@eu-docsign-review.cfd>
+To: r.iyer@meridian-demo.local
+Subject: Completed: MSA_Meridian_2026 is ready for your signature
+Date: Mon, 27 Jul 2026 12:32:00 +0000
+Message-ID: <a88c74a129c6a40594038da4@eu-docsign-review.cfd>
+List-Unsubscribe: <mailto:stop@eu-docsign-review.cfd>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style="font-family:Arial"><h3>You have a document to review</h3><p>MSA_Meridian_2026.pdf &middot; sent by legal@meridian-demo.local</p><p><a href="https://t.co-redirect-svc.icu/r?d=aHR0cHM6Ly9sb2dpbi5taWNyb3NvZnRvbmxpbmUuY29tLXNzby5ldS1kb2NzaWduLXJldmlldy5jZmQ=">REVIEW DOCUMENT</a></p><p style="font-size:10px;color:#888">Ref 4F2C-88A1 &middot; If you did not expect this, ignore this message.</p></body></html>
+--=_mixed_0001--

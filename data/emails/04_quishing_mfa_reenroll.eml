@@ -1,0 +1,31 @@
+Return-Path: <it-security@meridian-demo.local>
+Received: from mx01.meridian-demo.local (10.20.4.11) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Mon, 27 Jul 2026 15:12:07 +0000
+Received: from vps-8812.hostvault-eu.net (vps-8812.hostvault-eu.net [91.242.229.140])
+	by mx01.meridian-demo.local (Postfix) with ESMTP id 55A0C1D2E8; Mon, 27 Jul 2026 15:12:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=softfail (domain of meridian-demo.local does not designate 91.242.229.140 as permitted sender);
+	dkim=none; dmarc=fail action=quarantine header.from=meridian-demo.local
+From: "IT Security - Meridian" <it-security@meridian-demo.local>
+To: undisclosed-recipients:;
+Bcc: n.rao@meridian-demo.local
+Subject: Mandatory: re-enrol your authenticator before 31 July
+Date: Mon, 27 Jul 2026 15:12:00 +0000
+Message-ID: <51026e9a14140359d1d6c849@hostvault-eu.net>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>Dear colleague,</p><p>Our MFA provider migration completes on 31 July. Scan the code below with your <b>personal phone</b> to re-enrol. Desktop enrolment is unavailable.</p><img src="cid:qr001" width="220" height="220" alt="enrolment code"><p>Do not forward this message. IT Service Desk</p></body></html>
+--=_mixed_0001
+Content-Type: image/png; name="mfa_enrolment_code.png"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="mfa_enrolment_code.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YA
+AAAASUVORK5CYII=
+--=_mixed_0001--

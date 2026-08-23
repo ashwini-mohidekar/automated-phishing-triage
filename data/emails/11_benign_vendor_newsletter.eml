@@ -1,0 +1,32 @@
+Return-Path: <bounce-8812@mail.cloudsecvendor.com>
+Received: from mx01.meridian-demo.local (10.20.4.11) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Tue, 28 Jul 2026 14:12:05 +0000
+Received: from mail.cloudsecvendor.com (mail.cloudsecvendor.com [198.51.100.24])
+	by mx01.meridian-demo.local (Postfix) with ESMTPS id 11C0D4471A; Tue, 28 Jul 2026 14:12:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=pass smtp.mailfrom=mail.cloudsecvendor.com;
+	dkim=pass header.d=cloudsecvendor.com; dmarc=pass action=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=cloudsecvendor.com; s=s1;
+	t=126776915; bh=Vdmh6JbyzcDjw9LnU/kZXTxlc3gTencKMBjAflsGjT4=;
+	h=from:to:subject:date:message-id;
+	b=vm1sAOlq67qIGEJwC4ohbKqQQS9nyXn8eKVImFusMWxAzQjcxapfhxgYZ+YP
+	xM5TbDR+MH+1nN6lRual/JnExbsd+ofXrahcHDlN7OyFttMuD2Qv9mFtpbSq3o5f7fwK
+From: "CloudSec Vendor Research" <research@cloudsecvendor.com>
+To: n.rao@meridian-demo.local
+Subject: [Webinar] Detection engineering for identity attacks - 12 Aug
+Date: Tue, 28 Jul 2026 14:12:00 +0000
+Message-ID: <7438f2665fad8255cad360ff@cloudsecvendor.com>
+List-Unsubscribe: <https://cloudsecvendor.com/unsub?t=8812>, <mailto:unsub@cloudsecvendor.com>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Id: CloudSec Research <research.cloudsecvendor.com>
+Precedence: bulk
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>Join our 45-minute session on identity attack detection.</p><p><a href="https://cloudsecvendor.com/webinars/identity-detection-aug">Register</a></p><p style="font-size:11px">You are receiving this because you registered at a CloudSec event. <a href="https://cloudsecvendor.com/unsub?t=8812">Unsubscribe</a>.</p></body></html>
+--=_mixed_0001--

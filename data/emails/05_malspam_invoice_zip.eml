@@ -1,0 +1,38 @@
+Return-Path: <billing@invoice-docs-eu991.xyz>
+Received: from mx02.meridian-demo.local (10.20.4.12) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Mon, 27 Jul 2026 18:17:14 +0000
+Received: from unknown (HELO invoice-docs-eu991.xyz) (5.181.156.201)
+	by mx02.meridian-demo.local with SMTP; Mon, 27 Jul 2026 18:17:03 +0000
+Received: from [10.8.0.6] (unknown [185.220.101.62])
+	by invoice-docs-eu991.xyz with ESMTPSA id 3B71D0A9; Mon, 27 Jul 2026 18:17:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=pass smtp.mailfrom=invoice-docs-eu991.xyz; dkim=none;
+	dmarc=none action=none header.from=invoice-docs-eu991.xyz
+From: "Accounts - Nordvale Supplies" <billing@invoice-docs-eu991.xyz>
+To: accounts.payable@meridian-demo.local
+Subject: Invoice 4471 overdue - final notice before referral
+Date: Mon, 27 Jul 2026 18:17:00 +0000
+Message-ID: <7943d4b0132d098830ed997f@invoice-docs-eu991.xyz>
+X-Mailer: Zimbra 8.8.15_GA_4372
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Please find attached invoice 4471, now 32 days overdue.
+Password for the archive is 4471.
+Remit within 48 hours to avoid referral to our collections partner.
+
+--=_mixed_0001
+Content-Type: application/zip; name="INVOICE_4471.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INVOICE_4471.zip"
+
+UEsDBBQAAAAIAFRSQUlOSU5HIFNBTVBMRSAtIElORVJUIEZJTEUgLSBOT1QgTUFMV0FSRQ0KR2Vu
+ZXJhdGVkIGZvciB0aGUgVGhyZWF0IEludGVsbGlnZW5jZSAmIFNlY3VyaXR5IERhdGEgQW5hbHlz
+aXMgbGFiLg0KSU5WT0lDRV80NDcxLnBkZi5sbmsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAA==
+--=_mixed_0001--

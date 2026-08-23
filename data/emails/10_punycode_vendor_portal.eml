@@ -1,0 +1,23 @@
+Return-Path: <portal@xn--nordvle-supplies-2nb.com>
+Received: from mx02.meridian-demo.local (10.20.4.12) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Tue, 28 Jul 2026 11:42:07 +0000
+Received: from xn--nordvle-supplies-2nb.com (xn--nordvle-supplies-2nb.com [141.98.11.77])
+	by mx02.meridian-demo.local (Postfix) with ESMTPS id 4471BB0C22; Tue, 28 Jul 2026 11:42:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=pass smtp.mailfrom=xn--nordvle-supplies-2nb.com;
+	dkim=pass header.d=xn--nordvle-supplies-2nb.com; dmarc=pass
+From: "Nordvale Vendor Portal" <portal@xn--nordvle-supplies-2nb.com>
+To: accounts.payable@meridian-demo.local
+Subject: Vendor portal migration - re-verify your banking profile
+Date: Tue, 28 Jul 2026 11:42:00 +0000
+Message-ID: <049178b1ed61f32bf3ecfcfa@xn--nordvle-supplies-2nb.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>We have migrated our vendor portal.</p><p>Re-verify your profile within 5 days to avoid payment delays:</p><p><a href="https://portal.xn--nordvle-supplies-2nb.com/verify">https://portal.nordvale-supplies.com/verify</a></p></body></html>
+--=_mixed_0001--

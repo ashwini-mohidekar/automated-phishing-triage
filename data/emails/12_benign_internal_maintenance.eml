@@ -1,0 +1,27 @@
+Return-Path: <it-notices@meridian-demo.local>
+Received: from exch01.meridian-demo.local (10.20.4.30) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Tue, 28 Jul 2026 16:57:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=pass (internal relay) smtp.mailfrom=meridian-demo.local;
+	dkim=pass header.d=meridian-demo.local; dmarc=pass; compauth=pass reason=109
+From: "Meridian IT Notices" <it-notices@meridian-demo.local>
+To: all-staff@meridian-demo.local
+Subject: Planned VPN maintenance, Sat 09 Aug 22:00-23:30 IST
+Date: Tue, 28 Jul 2026 16:57:00 +0000
+Message-ID: <8d5594e139ebc9535ebaf856@meridian-demo.local>
+X-MS-Exchange-Organization-AuthAs: Internal
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+VPN concentrators will be patched on Saturday 09 August, 22:00-23:30 IST.
+Remote sessions will drop once. No action is required from you.
+We will never ask you to re-enter credentials by email - if in doubt, use the
+Report Phishing button in Outlook.
+
+IT Operations, extension 4110
+--=_mixed_0001--

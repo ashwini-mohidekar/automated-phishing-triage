@@ -1,0 +1,41 @@
+Return-Path: <statements@sec-doc-viewer042.click>
+Received: from mx01.meridian-demo.local (10.20.4.11) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Mon, 27 Jul 2026 21:52:08 +0000
+Received: from sec-doc-viewer042.click (sec-doc-viewer042.click [45.153.240.120])
+	by mx01.meridian-demo.local (Postfix) with ESMTPS id 7E11A2F004; Mon, 27 Jul 2026 21:52:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=pass smtp.mailfrom=sec-doc-viewer042.click; dkim=none; dmarc=none
+From: "Secure Statements" <statements@sec-doc-viewer042.click>
+To: s.kapoor@meridian-demo.local
+Subject: Your encrypted statement for July 2026
+Date: Mon, 27 Jul 2026 21:52:00 +0000
+Message-ID: <01fd4d47f2a45df4fe8d601d@sec-doc-viewer042.click>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Open the attached viewer to decrypt your statement.
+
+--=_mixed_0001
+Content-Type: text/html; name="Statement_Viewer.html"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Statement_Viewer.html"
+
+PGh0bWw+PGhlYWQ+PHRpdGxlPlNlY3VyZSBEb2N1bWVudCBWaWV3ZXI8L3RpdGxlPjwvaGVhZD48
+Ym9keT4KPHA+RGVjcnlwdGluZyBkb2N1bWVudCwgcGxlYXNlIHdhaXQuLi48L3A+CjxzY3JpcHQ+
+Ci8vIFRSQUlOSU5HIFNBTVBMRSAtIHRoZSBwYXlsb2FkIGJlbG93IGlzIGFuIGluZXJ0IHRleHQg
+ZmlsZS4KdmFyIGQgPSAnVkZKQlNVNUpUa2NnVTBGTlVFeEZJQzBnU1U1RlVsUWdSa2xNUlNBdElF
+NVBWQ0JOUVV4WFFWSkZEUXBIWlc1bGNtRjBaV1FnWm05eUlIUm9aU0JVYUhKbFlYUWdTVzUwWld4
+c2FXZGxibU5sSUNZZ1UyVmpkWEpwZEhrZ1JHRjBZU0JCYm1Gc2VYTnBjeUJzWVdJdURRbz0nOwp2
+YXIgYmluID0gYXRvYihkKTsKdmFyIGFyciA9IG5ldyBVaW50OEFycmF5KGJpbi5sZW5ndGgpOwpm
+b3IgKHZhciBpPTA7aTxiaW4ubGVuZ3RoO2krKyl7YXJyW2ldPWJpbi5jaGFyQ29kZUF0KGkpO30K
+dmFyIGJsb2IgPSBuZXcgQmxvYihbYXJyXSwge3R5cGU6J2FwcGxpY2F0aW9uL29jdGV0LXN0cmVh
+bSd9KTsKdmFyIGEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdhJyk7CmEuaHJlZiA9IFVSTC5j
+cmVhdGVPYmplY3RVUkwoYmxvYik7CmEuZG93bmxvYWQgPSAnU3RhdGVtZW50X0p1bHkuaXNvJzsK
+Ly8gYS5jbGljaygpOyAgLy8gZGlzYWJsZWQgaW4gdGhlIHRyYWluaW5nIGNvcHkKPC9zY3JpcHQ+
+PC9ib2R5PjwvaHRtbD4K
+--=_mixed_0001--

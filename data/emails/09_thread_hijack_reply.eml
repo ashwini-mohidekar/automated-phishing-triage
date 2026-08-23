@@ -1,0 +1,38 @@
+Return-Path: <p.sharma@nordvale-supplies.com>
+Received: from mx01.meridian-demo.local (10.20.4.11) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Tue, 28 Jul 2026 08:12:09 +0000
+Received: from mail.nordvale-supplies.com (mail.nordvale-supplies.com [185.220.101.19])
+	by mx01.meridian-demo.local (Postfix) with ESMTPS id 0D5FA22B71; Tue, 28 Jul 2026 08:12:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=pass smtp.mailfrom=nordvale-supplies.com;
+	dkim=pass header.d=nordvale-supplies.com; dmarc=pass action=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nordvale-supplies.com; s=sel2;
+	t=573791591; bh=89Q2+RbcP1WBCH1mE46eZXTskZ8OaIAcvbD9cvudF3A=;
+	h=from:to:subject:date:message-id;
+	b=TKasyJPPhx5RqSEZRMaZ8Ia2JPZxd0+YFLXno6IDnq1mkTHgFmuOFonz9ZTT
+	V/wgPjQiIXhNDEfyStoDBt3x3bS3liwOIWPcznFCBfHTrAdU5+2sY28gDFObn4UaKwp0
+From: "Priya Sharma" <p.sharma@nordvale-supplies.com>
+To: r.iyer@meridian-demo.local
+Subject: RE: RE: Shipment 88-4412 documentation
+Date: Tue, 28 Jul 2026 08:12:00 +0000
+Message-ID: <3a91c86172309a1a82b48d35@nordvale-supplies.com>
+In-Reply-To: <20260722.884412.docs@meridian-demo.local>
+References: <20260721.884412@nordvale-supplies.com> <20260722.884412.docs@meridian-demo.local>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Rahul - as discussed, the revised packing list and the CoO are here:
+https://files-nordvale-share.cfd/d/884412
+
+> On 22 Jul 2026, Rahul Iyer wrote:
+> Priya, could you resend the packing list? The copy we have is missing page 3.
+> > On 21 Jul 2026, Priya Sharma wrote:
+> > Please find shipment 88-4412 documentation attached.
+
+Priya Sharma | Nordvale Supplies
+--=_mixed_0001--

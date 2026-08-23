@@ -1,0 +1,173 @@
+{
+ "01_o365_password_expiry.eml": {
+  "verdict": "malicious",
+  "category": "credential_harvesting",
+  "why": [
+   "From header spoofs the recipient's own domain",
+   "DMARC fail with compauth=fail",
+   "Reply-To on unrelated domain",
+   "urgency + expiry lure",
+   "base64 victim email in URL (pre-filled harvester)",
+   "tracking pixel"
+  ],
+  "iocs": [
+   "mail-secure-notify873.top",
+   "45.153.240.77",
+   "193.169.255.31",
+   "sso-meridian-demo.mail-secure-notify873.top"
+  ]
+ },
+ "02_bec_bank_change.eml": {
+  "verdict": "malicious",
+  "category": "business_email_compromise",
+  "why": [
+   "lookalike domain meridi4n-demo.com (zero for o) passes its own SPF/DKIM/DMARC",
+   "authentication PASS does not mean legitimate - it authenticates the attacker's domain",
+   "financial process change + urgency + explicit instruction not to phone",
+   "In-Reply-To references a real internal thread (thread context harvested or guessed)"
+  ],
+  "iocs": [
+   "meridi4n-demo.com",
+   "141.98.11.204",
+   "mail-out-7.mailerhost-eu.net"
+  ]
+ },
+ "03_aitm_docusign.eml": {
+  "verdict": "malicious",
+  "category": "aitm_session_theft",
+  "why": [
+   "open redirect wrapper hides the true destination",
+   "base64 in the redirect parameter decodes to login.microsoftonline.com-sso.eu-docsign-review.cfd",
+   "that host is a subdomain of the attacker domain, not Microsoft",
+   "AiTM proxy steals the session cookie - MFA does not stop it, token revocation is required"
+  ],
+  "iocs": [
+   "eu-docsign-review.cfd",
+   "t.co-redirect-svc.icu",
+   "23.106.223.18",
+   "login.microsoftonline.com-sso.eu-docsign-review.cfd"
+  ]
+ },
+ "04_quishing_mfa_reenroll.eml": {
+  "verdict": "malicious",
+  "category": "quishing",
+  "why": [
+   "QR code moves the click to an unmanaged personal device, off the corporate proxy",
+   "no URL in the body for a URL detonation engine to score",
+   "spoofs the internal IT identity but arrives from an external VPS with SPF softfail",
+   "'do not forward' suppresses the peer check"
+  ],
+  "iocs": [
+   "91.242.229.140",
+   "vps-8812.hostvault-eu.net"
+  ],
+  "note": "QR decodes to hxxps://mfa-reenrol-meridian[.]icu/e?u=n.rao (given, not decodable from the 1x1 stub)"
+ },
+ "05_malspam_invoice_zip.eml": {
+  "verdict": "malicious",
+  "category": "malware_delivery",
+  "why": [
+   "password-protected archive defeats gateway AV scanning - password is in the body",
+   "archive contains a double-extension .pdf.lnk",
+   "SPF passes because the attacker owns the sending domain; DMARC policy is none",
+   "originating hop is a Tor-adjacent range, HELO does not match a real MX"
+  ],
+  "iocs": [
+   "invoice-docs-eu991.xyz",
+   "5.181.156.201",
+   "185.220.101.62",
+   "f4c439b16235cb8599af21ec30388faf831729d0f923e3a710ade6141d9ca478"
+  ]
+ },
+ "06_html_smuggling_statement.eml": {
+  "verdict": "malicious",
+  "category": "html_smuggling",
+  "why": [
+   "payload is assembled in the browser from base64, so nothing malicious traverses the gateway",
+   "Blob + createObjectURL + download attribute is the smuggling signature",
+   "final artefact is an .iso - container formats strip Mark-of-the-Web"
+  ],
+  "iocs": [
+   "sec-doc-viewer042.click",
+   "45.153.240.120",
+   "b10389c334f274113862749e101ba3abfea5b8b311f0a44703482115fd891601"
+  ]
+ },
+ "07_oauth_consent_grant.eml": {
+  "verdict": "malicious",
+  "category": "oauth_consent_phishing",
+  "why": [
+   "link genuinely goes to login.microsoftonline.com - URL reputation will pass it",
+   "the abuse is in the parameters: attacker client_id, attacker redirect_uri",
+   "scopes requested are Mail.ReadWrite, Mail.Send, Files.ReadWrite.All, offline_access",
+   "consent grants a persistent refresh token - password reset and MFA do not revoke it"
+  ],
+  "iocs": [
+   "collab-sync-portal.shop",
+   "104.21.9.44",
+   "9f8c2a41-77bd-4f2e-b3aa-0e91d4c7ff10"
+  ]
+ },
+ "08_callback_subscription.eml": {
+  "verdict": "malicious",
+  "category": "callback_phishing_toad",
+  "why": [
+   "no URL and no active content - defeats link and attachment sandboxing entirely",
+   "the payload is the phone number; the attack continues on a voice channel",
+   "high fake charge creates urgency; 'phone only' forces the victim off email"
+  ],
+  "iocs": [
+   "billing-notice-desk.icu",
+   "193.169.255.88",
+   "+91 80 4711 2288"
+  ]
+ },
+ "09_thread_hijack_reply.eml": {
+  "verdict": "malicious",
+  "category": "thread_hijacking",
+  "why": [
+   "genuine quoted history - the supplier mailbox is compromised, not spoofed",
+   "authentication fully passes because the mail really is from the supplier",
+   "the only anomaly is the link domain: files-nordvale-share.cfd is not the supplier's domain",
+   "detection must come from link/domain-age analysis and supplier domain allowlisting, not auth"
+  ],
+  "iocs": [
+   "files-nordvale-share.cfd",
+   "185.220.101.19"
+  ]
+ },
+ "10_punycode_vendor_portal.eml": {
+  "verdict": "malicious",
+  "category": "credential_harvesting",
+  "why": [
+   "IDN/punycode domain renders as a Cyrillic-lookalike of the real supplier",
+   "anchor text shows the real domain while href points at the punycode domain",
+   "full authentication pass on a domain the attacker registered"
+  ],
+  "iocs": [
+   "xn--nordvle-supplies-2nb.com",
+   "141.98.11.77"
+  ]
+ },
+ "11_benign_vendor_newsletter.eml": {
+  "verdict": "benign",
+  "category": "legitimate_marketing",
+  "why": [
+   "consistent envelope, header From and DKIM d= alignment",
+   "List-Unsubscribe and List-Id present, Precedence: bulk",
+   "single first-party link, no credential ask, no urgency",
+   "marketing mail is the most common false positive - do not score 'bulk' as 'bad'"
+  ],
+  "iocs": []
+ },
+ "12_benign_internal_maintenance.eml": {
+  "verdict": "benign",
+  "category": "legitimate_internal",
+  "why": [
+   "single internal hop, AuthAs: Internal, compauth pass",
+   "no credential request, no external link, states the reporting route",
+   "'no action required' is the opposite of the phishing pressure pattern"
+  ],
+  "iocs": []
+ }
+}

@@ -1,0 +1,36 @@
+Return-Path: <no-reply@billing-notice-desk.icu>
+Received: from mx01.meridian-demo.local (10.20.4.11) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Tue, 28 Jul 2026 04:27:06 +0000
+Received: from mail.billing-notice-desk.icu (mail.billing-notice-desk.icu [193.169.255.88])
+	by mx01.meridian-demo.local (Postfix) with ESMTPS id 6A0BB3E112; Tue, 28 Jul 2026 04:27:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=pass smtp.mailfrom=billing-notice-desk.icu; dkim=none; dmarc=none
+From: "GeekSquad Renewals" <no-reply@billing-notice-desk.icu>
+To: n.rao@meridian-demo.local
+Subject: Your annual plan renews today - INR 48,999
+Date: Tue, 28 Jul 2026 04:27:00 +0000
+Message-ID: <abb5526b7f12d02d79ef9a58@billing-notice-desk.icu>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+ORDER CONFIRMATION
+Plan: Total Protection 3-Year   Amount: INR 48,999   Auto-debit: today
+
+Did not authorise this? Cancellation is only available by phone.
+Support: +91 80 4711 2288  (24x7, quote reference GS-77120-B)
+
+This mailbox is unmonitored.
+--=_mixed_0001
+Content-Type: application/pdf; name="Renewal_Receipt.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Renewal_Receipt.pdf"
+
+JVBERi0xLjQKJSBUUkFJTklORyBTQU1QTEUgLSBJTkVSVApUUkFJTklORyBTQU1QTEUgLSBJTkVS
+VCBGSUxFIC0gTk9UIE1BTFdBUkUNCkdlbmVyYXRlZCBmb3IgdGhlIFRocmVhdCBJbnRlbGxpZ2Vu
+Y2UgJiBTZWN1cml0eSBEYXRhIEFuYWx5c2lzIGxhYi4NCg==
+--=_mixed_0001--

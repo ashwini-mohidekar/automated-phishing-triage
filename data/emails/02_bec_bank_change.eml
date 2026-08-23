@@ -1,0 +1,51 @@
+Return-Path: <r.venkat@meridi4n-demo.com>
+Received: from mx02.meridian-demo.local (10.20.4.12) by exch01.meridian-demo.local (10.20.4.30)
+	with Microsoft SMTP Server id 15.2.1544.4; Mon, 27 Jul 2026 09:12:06 +0000
+Received: from mail-out-7.mailerhost-eu.net (mail-out-7.mailerhost-eu.net [141.98.11.204])
+	by mx02.meridian-demo.local (Postfix) with ESMTPS id 9D2211B4A7; Mon, 27 Jul 2026 09:12:00 +0000
+Authentication-Results: exch01.meridian-demo.local;
+	spf=pass (sender IP is 141.98.11.204) smtp.mailfrom=meridi4n-demo.com;
+	dkim=pass (signature was verified) header.d=meridi4n-demo.com;
+	dmarc=pass action=none header.from=meridi4n-demo.com;
+	compauth=pass reason=100
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=meridi4n-demo.com; s=s1;
+	t=415693723; bh=GES2SnH7Y9QRLX2whYYKSPOSvPDpcg5EP7FV35FwnBU=;
+	h=from:to:subject:date:message-id;
+	b=+GzOMWL6xLJg+hWFQa4TXXO67v20bF7i6+DdYxoG+Had5T67y/W34EZxfnmO
+	ETapbXz2tAq8H0pZgntoG9bTTGe452P9dTmPv43JqeCVDUNrginxETwJgEgRcNHjWxT0
+From: "Ravi Venkat (CFO)" <r.venkat@meridi4n-demo.com>
+To: a.mehta@meridian-demo.local
+Cc: accounts.payable@meridian-demo.local
+Subject: Re: Q3 vendor payment - updated beneficiary details
+Date: Mon, 27 Jul 2026 09:12:00 +0000
+Message-ID: <4aec2ed52077d9389365af9a@meridi4n-demo.com>
+In-Reply-To: <2026072411223344.ap@meridian-demo.local>
+References: <2026072411223344.ap@meridian-demo.local>
+X-Mailer: Microsoft Outlook 16.0
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="=_mixed_0001"
+
+This is a multi-part message in MIME format.
+--=_mixed_0001
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Anita,
+
+Following up on the thread below. The vendor has changed banking partners, so
+please update the beneficiary before the Friday run. Details attached.
+
+I am in back-to-back board sessions today so email only please - do not call
+the vendor's old number, it is being ported.
+
+Ravi
+Sent from my iPhone
+--=_mixed_0001
+Content-Type: application/pdf; name="Updated_Beneficiary_Advice.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Updated_Beneficiary_Advice.pdf"
+
+JVBERi0xLjQKJSBUUkFJTklORyBTQU1QTEUgLSBJTkVSVApUUkFJTklORyBTQU1QTEUgLSBJTkVS
+VCBGSUxFIC0gTk9UIE1BTFdBUkUNCkdlbmVyYXRlZCBmb3IgdGhlIFRocmVhdCBJbnRlbGxpZ2Vu
+Y2UgJiBTZWN1cml0eSBEYXRhIEFuYWx5c2lzIGxhYi4NCg==
+--=_mixed_0001--
